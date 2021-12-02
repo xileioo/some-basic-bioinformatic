@@ -32,6 +32,14 @@ clone_meta$verify <- verify_df[clone_meta$clonotype_id,]$verify
 #          read referene fasta file 
 #----------------------------------------------
 ref <- readDNAStringSet(myVDJ_ref_file)
+head(ref)
+# DNAStringSet object of length 6:
+#     width seq                                                                   names               
+# [1]  1031 AGTCTGCGAGAAATCCCACCATCTACCCACTGA...GTGATCATGTCAGAGGGAGATGGCATCTGCTAC 1|IGHA ENSMUST000...
+# [2]  1166 AGTCTGCGAGAAATCCCACCATCTACCCACTGA...GGCCCGTTTGGCAGCAAAGAGGTCCCCCAGTAC 2|IGHA ENSMUST000...
+# [3]   773 GTAATGAAAAGGGACCTGACATGTTCCTCCTCT...CCTTCCAGGAGACCTGATGGTCCTGCCCTTGCC 3|IGHD ENSMUST000...
+# [4]   872 GTAATGAAAAGGGACCTGACATGTTCCTCCTCT...TACAGTGGCTTCGTCACCTTCATCAAGGTGAAG 4|IGHD ENSMUST000...
+
 ref <- as.data.frame(ref)
 ref <- ref[!(rownames(ref) %like% "5'UTR"),,drop = F]
 ref <- ref[!(rownames(ref) %like% "GRCm38-release94"),,drop = F]
