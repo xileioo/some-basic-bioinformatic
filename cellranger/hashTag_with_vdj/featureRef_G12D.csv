@@ -1,0 +1,3 @@
+id,name,read,pattern,sequence,feature_type
+IgG2a303,MHC_C0303_TotalSeqC,R2,5PNNNNNNNNNN(BC)NNNNNNNNN,CTTGCCGCATGTCAT,Antibody Capture
+IgG2a304,MHC_C0304_TotalSeqC,R2,5PNNNNNNNNNN(BC)NNNNNNNNN,AAAGCATTCTTCACG,Antibody Capture

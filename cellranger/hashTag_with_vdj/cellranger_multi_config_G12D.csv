@@ -1,0 +1,16 @@
+﻿
+
+
+[feature]
+reference,/home/innovent/myproject/KRAS_control_VDJ_20211202/script/cellranger_meta/featureRef_G12D.csv
+
+[vdj]
+reference,/home/innovent/myproject/reference/10x/refdata-cellranger-vdj-GRCm38-alts-ensembl-5.0.0
+
+[libraries]
+fastq_id,fastqs,feature_types
+A2_G12D_F_20211116NA_TTATTGACAC,/home/innovent/myproject/KRAS_control_VDJ_20211202/rawdata/G12D,Antibody Capture
+A2_G12D_T_20211112NA_TCCGGGACAA,/home/innovent/myproject/KRAS_control_VDJ_20211202/rawdata/G12D,VDJ
+
+[gene-expression]
+reference,/home/innovent/myproject/reference/10x/refdata-gex-mm10-2020-A
