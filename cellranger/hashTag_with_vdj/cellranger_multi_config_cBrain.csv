@@ -1,0 +1,27 @@
+﻿
+[gene-expression]
+reference,/home/innovent/myproject/reference/10x/refdata-gex-mm10-2020-A
+
+
+[feature]
+reference,/home/innovent/myproject/Colitis_20211206/script/featureRef_cBrain.csv
+
+
+[vdj]
+reference,/home/innovent/myproject/reference/10x/refdata-cellranger-vdj-GRCm38-alts-ensembl-5.0.0
+
+
+[libraries]
+fastq_id,fastqs,feature_types
+colitisBrainColon_F_20211123NA_TTTGCTGGGT,/home/innovent/myproject/Colitis_20211206/rawdata/cBrain,Antibody Capture
+colitisBrainColon_T_20211126NA_TTGCCCGTGC,/home/innovent/myproject/Colitis_20211206/rawdata/cBrain,VDJ-T
+colitisBrainColon_5_20211123NA_AACCACGCAT,/home/innovent/myproject/Colitis_20211206/rawdata/cBrain,Gene Expression
+
+
+#[samples]
+#sample_id,cmo_ids,description
+#Con_Brain,CMO301,control_brain
+#Con_Colon,CMO302,control_colon
+#ATB_Brain,CM0303,ATB_brain
+#ATB_Colon,CM0304,ATB_colon
+
